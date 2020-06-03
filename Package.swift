@@ -4,6 +4,7 @@ import PackageDescription
 let package = Package(
     name: "multipart-kit",
     platforms: [
+       .iOS(.v10),
        .macOS(.v10_14)
     ],
     products: [
